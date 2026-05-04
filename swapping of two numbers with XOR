@@ -1,0 +1,18 @@
+swapping two numbers withoput using third operand.
+
+class Main {
+    public static void main(String[] args) {
+        int a=10,b=5;
+        
+        System.out.println("before swap a="+a+"and b="+b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println("after swapping a="+a+"and b="+b);
+    }
+    
+}
+
+output:
+before swap a=10and b=5
+after swapping a=5and b=10

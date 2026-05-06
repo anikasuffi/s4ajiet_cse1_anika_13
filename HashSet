@@ -1,0 +1,16 @@
+import java.util.HashSet;
+class Main{
+    public static void main(String[] args) {
+        HashSet<Integer> list=new HashSet< >();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(5);
+        list.add(32);
+        list.remove(10);
+        System.out.println("List:"+list);
+    }
+}
+
+o/p:
+List:[32, 20, 5, 30]
